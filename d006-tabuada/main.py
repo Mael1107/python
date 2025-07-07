@@ -2,7 +2,7 @@
 
 x = int(input("Wite any number: "))
 
-print(f"The singles table of {x} is:")
+print(f"The single table of {x} is:")
 
 print("-" * 15)
 
