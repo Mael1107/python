@@ -1,4 +1,5 @@
 # Desafio 045 em CursoemVideo
+
 from random import choice
 import os
 
@@ -22,19 +23,19 @@ print(f"I chose {pc_choice}")
 if pc_choice == "Rock" and player_choice == 1:
     print("You \033[1;32mWON\033[m!")
 elif pc_choice == "Rock" and player_choice == 0:
-    print("We \033[1;33[mDRAW\033[m!")
+    print("We \033[1;33mDRAW\033[m!")
 elif pc_choice == "Rock" and player_choice == 2:
     print("You \033[1;31mLOST\033[m!")
 elif pc_choice == "Paper" and player_choice == 2:
     print("You \033[1;32mWON\033[m!")
 elif pc_choice == "Paper" and player_choice == 1:
-    print("We \033[1;33[mDRAW\033[m!")
+    print("We \033[1;33mDRAW\033[m!")
 elif pc_choice == "Paper" and player_choice == 0:
     print("You \033[1;31mLOST\033[m!")
 elif pc_choice == "Scissors" and player_choice == 0:
     print("You \033[1;32mWON\033[m!")
 elif pc_choice == "Scissors" and player_choice == 2:
-    print("We \033[1;33[mDRAW\033[m!")
+    print("We \033[1;33mDRAW\033[m!")
 elif pc_choice == "Scissors" and player_choice == 1:
     print("You \033[1;31mLOST\033[m!")
 else:
