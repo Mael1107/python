@@ -3,7 +3,7 @@
 mass = float(input("What is your mass? (in kg) "))
 height = float(input("What is your height? (in m) "))
 
-bmi = mass / ( height**2 )
+bmi = mass / ( height ** 2 )
 
 print(f"\nYour body mass index (BMI) is: \033[7;30m{bmi:.2f}\033[m")
 
