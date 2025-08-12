@@ -17,5 +17,3 @@ for i in range(1, 8):
 print(years)
 print(f"{len(adults)} peoples are MAJOR age!")
 print(f"{len(minors)} people are MINORS age!")
-
-    
